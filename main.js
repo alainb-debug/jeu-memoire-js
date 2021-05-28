@@ -28,7 +28,7 @@ function afficherTableau(){
         for(var j=0; j < tabJeu[i].length ; j++){
             if(tabJeu[i] [j] === 0){
 // importation d'image
-            txt +="<button class='btn btn-secondary m-2' style='width:100px;height:100px' onclick='verif(\""+i+" "+j+"\")'>Elodie-Tom</button>";
+            txt +="<button class='btn btn-secondary m-2' style='width:100px;height:100px' onclick='verif(\""+i+" "+j+"\")'>Elodie Tom</button>";
             }else{
                 txt += "<img src= '"+getImage(tabJeu [i] [j])+"' style='width:100px;height:100px' class='m-2'>";
             }

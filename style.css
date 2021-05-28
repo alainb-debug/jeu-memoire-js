@@ -1,7 +1,7 @@
 
 .f-1{
-  color: black;
-  background-color: rgb(162, 0, 255);
+  color: white;
+  background-color: black;
   border-radius: 15px;
 }
 h1{
@@ -11,6 +11,6 @@ h2{
     text-align: center;
 }
 body{
-    background-color: rgb(224, 13, 112);
+    background-color: rgb(179, 171, 171)
     
 }
